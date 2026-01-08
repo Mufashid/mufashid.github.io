@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mufashid - Senior Software Developer with 10+ years of experience in ASP.NET, Node.js, Python, and enterprise solutions. Based in UAE.">
+    <meta name="keywords" content="Software Developer, Full Stack Developer, ASP.NET, Node.js, Python, UAE, CargoWise, API Integration">
+    <meta name="author" content="Mufashid">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Mufashid - Senior Software Developer">
+    <meta property="og:description" content="10+ years crafting enterprise solutions with ASP.NET, Node.js, Python, and more.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mufashid.github.io/">
+
+    <title>Mufashid | Senior Software Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/themes.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-text">M</span>ufashid
+            </a>
+
+            <div class="nav-menu" id="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon" id="theme-icon"></i>
+                </button>
+                <a href="assets/documents/Mufashid_CV.pdf" download class="btn btn-primary btn-sm">
+                    <i class="fas fa-download"></i>
+                    <span>Resume</span>
+                </a>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+            <div class="hero-particles"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-image" data-aos="zoom-in" data-aos-duration="800">
+                <div class="image-wrapper">
+                    <img src="assets/images/profile.jpeg" alt="Mufashid - Software Developer">
+                </div>
+            </div>
+
+            <div class="hero-text" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Mufashid</h1>
+                <div class="hero-title">
+                    <span class="title-prefix">A </span>
+                    <span class="typewriter" id="typewriter"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-tagline">10+ years crafting enterprise solutions in India & UAE</p>
+
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-briefcase"></i>
+                        View My Work
+                    </a>
+                    <a href="assets/documents/Mufashid_CV.pdf" download class="btn btn-outline">
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>
+                </div>
+
+                <div class="hero-social">
+                    <a href="https://www.linkedin.com/in/mufashid-m-565933103" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/mufashid" target="_blank" rel="noopener" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:mufshi.37@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#about" class="scroll-indicator" aria-label="Scroll to about section">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">01.</span> About Me
+            </h2>
+
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right" data-aos-duration="800">
+                    <div class="image-frame">
+                        <img src="assets/images/profile.jpeg" alt="Mufashid">
+                    </div>
+                </div>
+
+                <div class="about-text" data-aos="fade-left" data-aos-duration="800">
+                    <p>
+                        I'm a passionate <strong>Senior Software Developer</strong> with over 10 years of experience
+                        building robust, scalable enterprise solutions. My journey has taken me through
+                        <strong>India and UAE</strong>, working with diverse teams and challenging projects.
+                    </p>
+                    <p>
+                        Currently working remotely for <strong>CenGlobal</strong> (UK-based company), I specialize in logistics software development,
+                        working extensively with <strong>CargoWise</strong> integrations, building APIs, and
+                        implementing AI-powered solutions. I'm proficient in the full software development lifecycle,
+                        from database design to deployment.
+                    </p>
+                    <p>
+                        I thrive on solving complex problems and continuously learning new technologies.
+                        Whether it's backend development with <strong>ASP.NET</strong> and <strong>Node.js</strong>,
+                        database optimization with <strong>SQL Server</strong> and <strong>MongoDB</strong>, or
+                        building modern frontends with <strong>Vue.js</strong>, I bring dedication and expertise to every project.
+                    </p>
+
+                    <div class="about-personal">
+                        <div class="personal-item"><i class="fas fa-calendar-alt"></i> <strong>DOB:</strong> January 10, 1990</div>
+                        <div class="personal-item"><i class="fas fa-flag"></i> <strong>Nationality:</strong> Indian</div>
+                        <div class="personal-item"><i class="fas fa-language"></i> <strong>Languages:</strong> English, Hindi, Malayalam</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-stats" data-aos="fade-up" data-aos-delay="200">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="stat-number">2</div>
+                    <div class="stat-label">Countries Worked</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Companies</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="stat-number">AI</div>
+                    <div class="stat-label">Integration Expert</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">02.</span> Skills & Technologies
+            </h2>
+
+            <div class="skills-grid">
+                <!-- Languages -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="category-title">
+                        <i class="fas fa-code"></i>
+                        Languages
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-hashtag"></i>
+                            <span>C#</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>ASP.NET</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frameworks -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="category-title">
+                        <i class="fas fa-layer-group"></i>
+                        Frameworks
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Django</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-vuejs"></i>
+                            <span>Vue.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Databases -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="category-title">
+                        <i class="fas fa-database"></i>
+                        Databases
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>SQL Server</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Technologies -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                    <h3 class="category-title">
+                        <i class="fas fa-globe"></i>
+                        Web Technologies
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>jQuery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other Skills -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="500">
+                    <h3 class="category-title">
+                        <i class="fas fa-tools"></i>
+                        Other Technologies
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-plug"></i>
+                            <span>REST API</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-file-code"></i>
+                            <span>XML</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-brackets-curly"></i>
+                            <span>JSON</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-brain"></i>
+                            <span>AI/ML</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience" id="experience">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">03.</span> Work Experience
+            </h2>
+
+            <div class="timeline">
+                <!-- CenGlobal -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-duration="800">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="job-title">Software Developer</h3>
+                            <span class="job-duration">Oct 2021 - Present</span>
+                        </div>
+                        <h4 class="company-name">
+                            <i class="fas fa-building"></i>
+                            CenGlobal | United Kingdom (Remote)
+                        </h4>
+                        <ul class="job-responsibilities">
+                            <li>Developing and maintaining integrations with CargoWise logistics software</li>
+                            <li>Building RESTful APIs and XML-based integration services</li>
+                            <li>Implementing AI-powered solutions for data processing and automation</li>
+                            <li>Database design and optimization using SQL Server and MongoDB</li>
+                            <li>Full-stack development using ASP.NET Core, Node.js, and Vue.js</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tag">ASP.NET Core</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">SQL Server</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">CargoWise</span>
+                            <span class="tag">AI/ML</span>
+                            <span class="tag">XML</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Savant Data Systems -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="job-title">Software Developer</h3>
+                            <span class="job-duration">Nov 2016 - Feb 2021</span>
+                        </div>
+                        <h4 class="company-name">
+                            <i class="fas fa-building"></i>
+                            Savant Data Systems LLC | Dubai, UAE
+                        </h4>
+                        <ul class="job-responsibilities">
+                            <li>Developed integrations for people counting hardware devices with BI platforms</li>
+                            <li>Built data pipelines to collect, process, and visualize device data in real-time</li>
+                            <li>Integrated hardware data with existing Business Intelligence systems</li>
+                            <li>Developed custom BI dashboards and reporting solutions for clients</li>
+                            <li>Created APIs for seamless communication between counting devices and analytics platforms</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tag">C#</span>
+                            <span class="tag">.NET Framework</span>
+                            <span class="tag">SQL Server</span>
+                            <span class="tag">Web API</span>
+                            <span class="tag">BI Integration</span>
+                            <span class="tag">Data Analytics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Syosys Technologies -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="job-title">Junior Software Developer</h3>
+                            <span class="job-duration">Jun 2014 - Jun 2015</span>
+                        </div>
+                        <h4 class="company-name">
+                            <i class="fas fa-building"></i>
+                            Syosys Technologies | Kerala, India
+                        </h4>
+                        <ul class="job-responsibilities">
+                            <li>Developed custom web applications based on client requirements</li>
+                            <li>Built and deployed .NET web applications from scratch</li>
+                            <li>Gathered requirements from clients and translated them into technical solutions</li>
+                            <li>Collaborated with team members to deliver projects on time</li>
+                            <li>Maintained and enhanced existing web applications</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tag">.NET</span>
+                            <span class="tag">C#</span>
+                            <span class="tag">ASP.NET</span>
+                            <span class="tag">SQL Server</span>
+                            <span class="tag">Web Applications</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">04.</span> Featured Projects
+            </h2>
+
+            <div class="projects-grid">
+                <!-- Featured Project -->
+                <div class="project-card featured" data-aos="fade-up" data-aos-duration="800">
+                    <div class="project-content">
+                        <span class="project-label">Featured Project</span>
+                        <h3 class="project-title">AI Repo Analyzer</h3>
+                        <p class="project-description">
+                            An intelligent code analysis tool that leverages AI APIs to analyze repositories,
+                            identify code patterns, suggest improvements, and provide automated documentation.
+                            Built with a modern tech stack for scalability and performance.
+                        </p>
+                        <div class="project-tech">
+                            <span>ASP.NET Core</span>
+                            <span>Vue.js</span>
+                            <span>AI APIs</span>
+                            <span>SQL Server</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mufashid" target="_blank" rel="noopener" aria-label="View on GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                    <div class="project-header">
+                        <i class="fas fa-folder-open"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/mufashid" target="_blank" rel="noopener" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Logistics Integration Services</h3>
+                    <p class="project-description">
+                        Enterprise-grade integration services for logistics companies, featuring XML processing,
+                        CargoWise connectivity, and SFTP-based file transfers for seamless data exchange.
+                    </p>
+                    <div class="project-tech">
+                        <span>XML</span>
+                        <span>CargoWise</span>
+                        <span>SFTP</span>
+                        <span>ASP.NET</span>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                    <div class="project-header">
+                        <i class="fas fa-folder-open"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/mufashid" target="_blank" rel="noopener" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Admin Portals</h3>
+                    <p class="project-description">
+                        Comprehensive admin dashboard systems with role-based authentication,
+                        user management, analytics dashboards, and reporting capabilities.
+                    </p>
+                    <div class="project-tech">
+                        <span>ASP.NET Core</span>
+                        <span>Vue.js</span>
+                        <span>SQL Server</span>
+                        <span>JWT Auth</span>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+                    <div class="project-header">
+                        <i class="fas fa-folder-open"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/mufashid" target="_blank" rel="noopener" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">CargoWise Integrations</h3>
+                    <p class="project-description">
+                        Custom API and XML integrations with CargoWise One, enabling automated data
+                        synchronization, shipment tracking, and logistics workflow automation.
+                    </p>
+                    <div class="project-tech">
+                        <span>CargoWise API</span>
+                        <span>XML</span>
+                        <span>C#</span>
+                        <span>REST API</span>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+                    <div class="project-header">
+                        <i class="fas fa-folder-open"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/mufashid" target="_blank" rel="noopener" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Custom Tools & Utilities</h3>
+                    <p class="project-description">
+                        Collection of internal automation tools, scripts, and utilities built to
+                        streamline development workflows and improve team productivity.
+                    </p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Node.js</span>
+                        <span>Bash</span>
+                        <span>Automation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education" id="education">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">05.</span> Education
+            </h2>
+
+            <div class="education-card" data-aos="fade-up" data-aos-duration="800">
+                <div class="education-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="education-content">
+                    <h3 class="degree">Bachelor of Technology (B.Tech)</h3>
+                    <h4 class="institution">AIET - Visvesvaraya Technological University</h4>
+                    <p class="education-year">
+                        <i class="fas fa-calendar"></i>
+                        Graduated 2013
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">06.</span> Get In Touch
+            </h2>
+
+            <div class="contact-content" data-aos="fade-up" data-aos-delay="200">
+                <p class="contact-intro">
+                    I'm currently open to new opportunities and interesting projects.
+                    Whether you have a question, want to collaborate, or just want to say hi,
+                    feel free to reach out!
+                </p>
+
+                <div class="contact-cards">
+                    <a href="mailto:mufshi.37@gmail.com" class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>mufshi.37@gmail.com</p>
+                    </a>
+
+                    <a href="tel:+971524540519" class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h4>Phone</h4>
+                        <p>+971 524 540 519</p>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/mufashid-m-565933103" target="_blank" rel="noopener" class="contact-card">
+                        <i class="fab fa-linkedin-in"></i>
+                        <h4>LinkedIn</h4>
+                        <p>mufashid-m</p>
+                    </a>
+
+                    <a href="https://github.com/mufashid" target="_blank" rel="noopener" class="contact-card">
+                        <i class="fab fa-github"></i>
+                        <h4>GitHub</h4>
+                        <p>mufashid</p>
+                    </a>
+                </div>
+
+                <div class="contact-location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Based in UAE</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">
+                    Designed & Built by <strong>Mufashid</strong>
+                </p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/mufashid-m-565933103" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/mufashid" target="_blank" rel="noopener" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:mufshi.37@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <p class="footer-copyright">
+                    &copy; 2024 Mufashid. All rights reserved.
+                </p>
+            </div>
+        </div>
+
+        <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
