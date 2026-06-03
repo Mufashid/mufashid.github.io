@@ -141,9 +141,10 @@ function initTypewriter() {
     const typewriter = document.getElementById('typewriter');
     const titles = [
         'Senior Software Developer',
+        'AI Solutions Engineer',
         'Full Stack Engineer',
+        'AI Automation Specialist',
         'Integration Specialist',
-        'Backend Developer',
         'API Architect'
     ];
 

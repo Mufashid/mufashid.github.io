@@ -1290,3 +1290,116 @@ button {
         grid-template-columns: 1fr 1fr;
     }
 }
+
+/* ================================================
+   AI & AUTOMATION SECTION
+   ================================================ */
+.ai {
+    background: var(--bg-secondary);
+}
+
+.ai-intro {
+    max-width: 820px;
+    margin: 0 auto var(--spacing-3xl);
+    text-align: center;
+    font-size: var(--fs-lg);
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+.ai-intro strong {
+    color: var(--text-primary);
+}
+
+.ai-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-xl);
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.ai-card {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-lg);
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-xl);
+    transition: all var(--transition-base);
+    overflow: hidden;
+}
+
+.ai-card-body {
+    flex: 1;
+}
+
+.ai-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: var(--accent-gradient);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform var(--transition-base);
+}
+
+.ai-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent-primary);
+    box-shadow: var(--shadow-card);
+}
+
+.ai-card:hover::before {
+    transform: scaleX(1);
+}
+
+.ai-card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 52px;
+    height: 52px;
+    border-radius: var(--radius-lg);
+    background: var(--tag-bg);
+    border: 1px solid var(--tag-border);
+}
+
+.ai-card-icon i {
+    font-size: var(--fs-xl);
+    color: var(--accent-primary);
+}
+
+.ai-card-title {
+    font-size: var(--fs-lg);
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.ai-card-desc {
+    font-size: var(--fs-sm);
+    color: var(--text-secondary);
+    line-height: 1.7;
+}
+
+.ai-stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-3xl);
+}
+
+@media (max-width: 768px) {
+    .ai-grid {
+        grid-template-columns: 1fr;
+        max-width: 540px;
+    }
+}
